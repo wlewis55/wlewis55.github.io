@@ -6,8 +6,7 @@ description: Jekyll Portfolio
 
 # User settings
 username: Wade Lewis
-user_description:
-  I am a Software Developer, currently studying at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
+user_description: I am a Software Developer, currently studying at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
 user_title: Software Developer
 email: wlewis830@gmail.com
 # twitter_username: lorem_ipsum
