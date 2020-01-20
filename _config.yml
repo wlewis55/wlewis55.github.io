@@ -15,6 +15,33 @@ email: wlewis830@gmail.com
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: #"UA-156463513-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+#Experience
+experience:
+  education: I am currently a Senior Computer Science major at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
+  code: My main development languages are currently Python and C#, but I have worked with C++, Javascript, HTML, CSS, Bash, cURL, and more...
+  tools: I have used Unity, Xcode, Github, ServiceNow, Visual Studio, Atom, Microsoft Office and many others!
+  other: Outside of my classes, I am a <a href="https://www.uofscambassadors.com/" target="_blank">University Ambassador</a> and I am part of a professional engineering fraternity, called Theta Tau (&Theta;&Tau;).
+
+#OculusQuest
+quest:
+  title: Oculus Quest Hand Tracking
+  obj: To create a Proof of Concept project for Hand Tracking uses on the Oculus Quest.
+  tech: Oculus Quest, Unity 3D, <a href="https://developer.oculus.com/downloads/package/unity-integration/" target="_blank">Oculus Unity Integration</a>.
+  updates:
+    <br /><u>1/10&#58;</u> MainMenu and Hand Gun gesture in progress.
+    <br /><u>12/24&#58;</u> The first Demo looking at Rock, Paper, Scissors gestures has been completed.
+    <br /> *Video in progress*
+
+#UofSCTourAR
+tourar:
+  title: Senior Design&#58; UofSCTourAR
+  summary: The project is a part of CSCE 490 & 492 (Senior Design) at the University of South Carolina.
+  obj: To create an Augmented Reality historical tour of the University of South Carolina.
+  tech: Unity 3D & AR Foundation, iOS/XCode, Mapbox
+  updates:
+    <br /><u>12/7&#58;</u> Proof of Concept was completed in December. Features include Working UI, Mapbox integration, Spawn AR object.
+    <br /> *Video in progress*

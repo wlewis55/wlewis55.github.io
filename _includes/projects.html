@@ -3,35 +3,42 @@
 </div>
 
 <div class="user-projects">
-  <center><h2>Oculus Quest Handtracking</h2></center>
+  <center><h2>{{ site.quest.title }}</h2></center>
   <div class="user" align="center">
       <div class="tech" align="center">
         <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/SA_yXWCVxbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <p>TODO: Video</p>
       </div>
       <div class="tech">
         <i class="fab fa-unity" style="font-size:56px"></i><span class="tab"></span>
         <i class="fas fa-vr-cardboard" style="font-size:56px"></i>
         <i class="fas fa-hand-paper" style="font-size:56px"></i>
-          <p><font size="5">TODO: Description</font><p>
+        <div class="text_col">
+          <p><font size="5"><b>Objective:</b> {{ site.quest.obj }}</font><p>
+          <p><font size="5"><b>Technology:</b> {{ site.quest.tech }}</font><p>
+          <p><font size="5"><b>Latest Updates:</b> {{ site.quest.updates }}</font><p>
+        </div>
       </div>
   </div>
 
 
-<center><h2>Senior Design Project: UofSCTourAR</h2></center>
+<center><h2>{{ site.tourar.title}}&ensp;<a aria-label="Github Page" href="https://github.com/SCCapstone/UofSCTourAR" target="_blank"><i class="icon fab fa-github" style="color:#73000a;"></i></a></h2></center>
 <div class="user" align="center">
     <div class="tech" align="center">
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SA_yXWCVxbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <p>TODO: Video</p>
     </div>
     <div class="tech">
       <i class="fab fa-unity"style="font-size:56px"></i>
       <i class="fab fa-apple"style="font-size:56px"></i>
       <i class="fas fa-map-marked-alt"style="font-size:56px"></i>
-      <p><font size="5">TODO: Description</font><p>
+      <div class="text_col">
+        <p><font size="4"><i>{{ site.tourar.summary }}</i></font><p>
+        <p><font size="5"><b>Objective: </b>{{ site.tourar.obj }}</font><p>
+        <p><font size="5"><b>Technology: </b> {{ site.tourar.tech }}</font><p>
+        <p><font size="5"><b>Latest Updates: </b>{{ site.tourar.updates }}</font><p>
+      </div>
     </div>
 </div>
