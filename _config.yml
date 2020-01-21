@@ -15,7 +15,7 @@ email: wlewis830@gmail.com
 
 # Google-analytics
 google-analytics:
-  id: #"UA-156463513-1"
+  id: "UA-156463513-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
 
