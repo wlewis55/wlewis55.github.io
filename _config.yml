@@ -24,7 +24,7 @@ experience:
   education: I am currently a Senior Computer Science major at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
   code: My main development languages are currently Python and C#, but I have worked with C++, Javascript, HTML, CSS, Bash, cURL, and more...
   tools: I have used Unity, Xcode, Github, ServiceNow, Visual Studio, Atom, Microsoft Office and many others!
-  other: Outside of my classes, I am a <a href="https://www.uofscambassadors.com/" target="_blank">University Ambassador</a> and I am part of a professional engineering fraternity, called Theta Tau (&Theta;&Tau;).
+  other: Outside of my classes, I am a <a href="https://www.uofscambassadors.com/" target="_blank">University Ambassador</a> and I am part of <a href="http://thetatauzd.org/" target="_blank">Theta Tau</a> (&Theta;&Tau;), a professional engineering fraternity.
 
 #OculusQuest
 quest:
@@ -34,7 +34,7 @@ quest:
   updates:
     <br /><u>1/10&#58;</u> MainMenu and Hand Gun gesture in progress.
     <br /><u>12/24&#58;</u> The first Demo looking at Rock, Paper, Scissors gestures has been completed.
-    <br /> *Video in progress*
+    <br /><b>*Video in progress*</b>
 
 #UofSCTourAR
 tourar:
@@ -44,4 +44,4 @@ tourar:
   tech: Unity 3D & AR Foundation, iOS/XCode, Mapbox
   updates:
     <br /><u>12/7&#58;</u> Proof of Concept was completed in December. Features include Working UI, Mapbox integration, Spawn AR object.
-    <br /> *Video in progress*
+    <br /><b>*Video in progress*</b>
