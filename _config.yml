@@ -34,7 +34,7 @@ quest:
   updates:
     <br /><u>1/10&#58;</u> MainMenu and Hand Gun gesture in progress.
     <br /><u>12/24&#58;</u> The first Demo looking at Rock, Paper, Scissors gestures has been completed.
-    <br /><b>*Video in progress*</b>
+    <br /><b>*More images coming soon*</b>
 
 #UofSCTourAR
 tourar:
@@ -44,4 +44,13 @@ tourar:
   tech: Unity 3D & AR Foundation, iOS/XCode, Mapbox
   updates:
     <br /><u>12/7&#58;</u> Proof of Concept was completed in December. Features include Working UI, Mapbox integration, Spawn AR object.
+    <br /><b>*AR images coming soon*</b>
+
+imgtrack:
+  title: UofSC Self-Guided Walking Tour AR
+  summary:
+  obj: To add AR features onto the S.G.W.T. pamphlet given to visitors who come to the UofSC Visitor's center.
+  tech: Unity 3D & AR Foundation, iOS/XCode
+  updates:
+    <br />Image Tracking has been added for the cover, and first 6 tour stop images
     <br /><b>*Video in progress*</b>
