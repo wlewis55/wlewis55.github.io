@@ -43,8 +43,7 @@ tourar:
   obj: To create an Augmented Reality historical tour of the University of South Carolina.
   tech: Unity 3D & AR Foundation, iOS/XCode, Mapbox
   updates:
-    <br /><u>12/7&#58;</u> Proof of Concept was completed in December. Features include Working UI, Mapbox integration, Spawn AR object.
-    <br /><b>*AR images coming soon*</b>
+    <br /><u>12/7&#58;</u> Proof of Concept was completed in December. Features include Working UI, Mapbox integration, Spawn AR object with Plane Detection, AR Point Cloud.
 
 imgtrack:
   title: UofSC Self-Guided Walking Tour AR
