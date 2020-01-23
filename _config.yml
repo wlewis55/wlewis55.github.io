@@ -23,7 +23,7 @@ exclude: ['package.json', 'src' , 'node_modules']
 experience:
   education: I am currently a Senior Computer Science major at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
   code: My main development languages are currently Python and C#, but I have worked with C++, Javascript, HTML, CSS, Bash, cURL, and more...
-  tools: I have used Unity, Xcode, Github, ServiceNow, Visual Studio, Atom, Microsoft Office and many others!
+  tools: I have used Unity 3D, Xcode, Github, ServiceNow, Visual Studio, Atom, Microsoft Office and many others!
   other: Outside of my classes, I am a <a href="https://www.uofscambassadors.com/" target="_blank">University Ambassador</a> and I am part of <a href="http://thetatauzd.org/" target="_blank">Theta Tau</a> (&Theta;&Tau;), a professional engineering fraternity.
 
 #OculusQuest
