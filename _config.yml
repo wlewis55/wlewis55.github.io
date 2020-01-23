@@ -32,7 +32,7 @@ quest:
   obj: To create a Proof of Concept project for Hand Tracking uses on the Oculus Quest.
   tech: Oculus Quest, Unity 3D, <a href="https://developer.oculus.com/downloads/package/unity-integration/" target="_blank">Oculus Unity Integration</a>.
   updates:
-    <br /><u>1/10&#58;</u> MainMenu and Hand Gun gesture in progress.
+    <br /><u>1/10&#58;</u> MainMenu, Hand Gun gesture, and <b>grabbing fucntionality</b> in progress.
     <br /><u>12/24&#58;</u> The first Demo looking at Rock, Paper, Scissors gestures has been completed.
     <br /><b>*More images coming soon*</b>
 

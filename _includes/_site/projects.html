@@ -1,29 +1,76 @@
 <div class="user-details">
-  <h1> Featured Projects </h1>
+  <h1><u><b>My Projects</b></u></h1>
 </div>
+
+<!-- Quest HandTracking -->
 <div class="user-projects">
-  <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
+  <center><h2>{{ site.quest.title }}</h2></center>
+  <div class="user" align="center">
+      <div class="tech" align="center">
+        <!-- <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+        <img style="border:0px solid black;" src="/media/RPS_poc.gif" align="middle" alt="RPS Proof of Concept" height="500">
+
+      </div>
+      <div class="tech">
+        <i class="fab fa-unity" style="font-size:56px"></i><span class="tab"></span>
+        <i class="fas fa-vr-cardboard" style="font-size:56px"></i>
+        <i class="fas fa-hand-paper" style="font-size:56px"></i>
+        <div class="text_col">
+          <p><font size="5"><b>Objective:</b> {{ site.quest.obj }}</font><p>
+          <p><font size="5"><b>Technology:</b> {{ site.quest.tech }}</font><p>
+          <p><font size="5"><b>Latest Updates:</b> {{ site.quest.updates }}</font><p>
+        </div>
+      </div>
+  </div><br />
+
+<!-- UofSCTourAR -->
+  <center><h2>{{ site.tourar.title}}&ensp;<a aria-label="Github Page" href="https://github.com/SCCapstone/UofSCTourAR" target="_blank"><i class="icon fab fa-github" style="color:#73000a;"></i></a></h2></center>
+  <div class="user" align="center">
+      <div class="tech" align="center">
+        <!-- <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+        <img style="border:2px solid black;" src="/media/UofSCTourAR_Homepage.jpeg" align="middle" alt="UofSCTourAR Homepage" height="500">
+        <img style="border:2px solid black;" src="/media/map.gif" align="middle" alt="Mapbox Proof of Concept" height="500">
+
+
+      </div>
+      <div class="tech">
+        <i class="fab fa-unity"style="font-size:56px"></i>
+        <i class="fab fa-apple"style="font-size:56px"></i>
+        <i class="fas fa-map-marked-alt"style="font-size:56px"></i>
+        <i class="fas fa-street-view"style="font-size:56px"></i>
+        <div class="text_col">
+          <p><font size="4"><i>{{ site.tourar.summary }}</i></font><p>
+          <p><font size="5"><b>Objective: </b>{{ site.tourar.obj }}</font><p>
+          <p><font size="5"><b>Technology: </b> {{ site.tourar.tech }}</font><p>
+          <p><font size="5"><b>Latest Updates: </b>{{ site.tourar.updates }}</font><p>
+        </div>
+      </div>
+  </div><br />
+
+<!-- UofSC Self Guided Walking Tour AR -->
+  <center><h2>{{ site.imgtrack.title }}</h2></center>
+  <div class="user" align="center">
+    <div class="tech" align="center">
+      <!-- <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div> -->
+      <img style="border:1px solid black;" src="/media/sgwt_cover.JPG" align="middle" alt="SGWT Cover" height="500">
+      <img style="border:1px solid black;" src="/media/sgwt_page1.JPG" align="middle" alt="SGWT Page1" height="500">
+
+    </div>
+    <div class="tech">
+      <i class="fab fa-unity"style="font-size:56px"></i>
+      <i class="fab fa-apple"style="font-size:56px"></i>
+      <i class="far fa-map"style="font-size:56px"></i>
+      <div class="text_col">
+        <p><font size="4"><i>{{ site.imgtrack.summary }}</i></font><p>
+        <p><font size="5"><b>Objective: </b>{{ site.imgtrack.obj }}</font><p>
+        <p><font size="5"><b>Technology: </b> {{ site.imgtrack.tech }}</font><p>
+        <p><font size="5"><b>Latest Updates: </b>{{ site.imgtrack.updates }}</font><p>
+      </div>
+    </div>
+  </div><br />
