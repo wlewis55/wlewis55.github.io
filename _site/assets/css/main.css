@@ -99,3 +99,7 @@ height: 90%;
 .text_col {
   padding: 0px 30px 0px 0px;
 }
+brsmall {
+  display: block;
+  margin: 15px 0;
+}

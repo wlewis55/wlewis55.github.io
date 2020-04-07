@@ -50,6 +50,18 @@ tourar:
     <br /><u>3/2&#58;</u> Beta Release completed. Added Interactive map POI's, Placement Indicator in AR w/ new UofSC objects, Dynamic loading from json to both Photos and Information views in AR.
     <br /><u>4/6&#58;</u> Release 1.0 completed. Added Animations to the AR Scene, Achievements, Tour History, and Search. Ready for QA.
 
+
+snapchat:
+  title: Snapchat AR Lenses
+  summary: A collection of Snapchat lenses that use face detection. Scan snapcode provided and open in Snapchat to use.
+  tech: Lens Studio, Snapchat iOS App
+  updates:
+    <br /><u>4/7&#58;</u> Made several lenses that feature games that assigns user a random image/object.
+
+
+
+
+
 imgtrack:
   title: UofSC Self-Guided Walking Tour AR
   summary:
@@ -60,4 +72,4 @@ imgtrack:
     <br /><b>*Video in progress*</b>
 
 comingsoon:
-  title: More Coming Soon!
+  title: More Projects Coming Soon!
