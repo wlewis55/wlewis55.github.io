@@ -1,0 +1,75 @@
+# Site settings
+title: Wade Lewis
+description: Jekyll Portfolio
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Wade Lewis
+user_description: I am a Software Developer, currently studying at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
+user_title: Software Developer
+user_employer:
+  title: <a href="https://jhuapl.edu" target="_blank">Johns Hopkins Applied Physics Lab</a>
+  location: Laurel, MD
+email: wlewis830@gmail.com
+# twitter_username: lorem_ipsum
+# github_username:  lorem_ipsum
+# gplus_username:  lorem_ipsum
+
+# Google-analytics
+google-analytics:
+  id: "UA-156463513-1"
+
+exclude: ['package.json', 'src' , 'node_modules']
+
+#Experience
+experience:
+  education: I am currently a Senior Computer Science major at the <a href="https://sc.edu" target="_blank">University of South Carolina</a>.
+  code: My main development languages are currently Python and C#, but I have worked with C++, Javascript, HTML, CSS, Bash, cURL, and more...
+  tools: I have used Unity 3D, Xcode, Github, ServiceNow, Visual Studio, Atom, Microsoft Office and many others!
+  other: Outside of my classes, I am a <a href="https://www.uofscambassadors.com/" target="_blank">University Ambassador</a> and I am part of <a href="http://thetatauzd.org/" target="_blank">Theta Tau (&Theta;&Tau;)</a>, a professional engineering fraternity.
+
+#OculusQuest
+quest:
+  title: Oculus Quest Hand Tracking
+  obj: To create a Proof of Concept project for Hand Tracking uses on the Oculus Quest.
+  tech: Oculus Quest, Unity 3D, <a href="https://developer.oculus.com/downloads/package/unity-integration/" target="_blank">Oculus Unity Integration</a>.
+  updates:
+    <br /><u>1/10&#58;</u> MainMenu, Hand Gun gesture, and <b>grabbing fucntionality</b> in progress.
+    <br /><u>12/24&#58;</u> The first Demo looking at Rock, Paper, Scissors gestures has been completed.
+    <br /><b>*More images coming soon*</b>
+
+#UofSCTourAR
+tourar:
+  title: Senior Design&#58; UofSCTourAR
+  summary: The project is a part of CSCE 490 & 492 (Senior Design) at the University of South Carolina.
+  obj: To create an Augmented Reality historical tour of the University of South Carolina.
+  tech: Unity 3D & AR Foundation, iOS/XCode, Mapbox
+  updates:
+    <br /><u>12/7&#58;</u> Proof of Concept was completed in December. Features include Working UI, Mapbox integration, Spawn AR object with Plane Detection, AR Point Cloud.
+    <br /><u>3/2&#58;</u> Beta Release completed. Added Interactive map POI's, Placement Indicator in AR w/ new UofSC objects, Dynamic loading from json to both Photos and Information views in AR.
+    <br /><u>4/6&#58;</u> Release 1.0 completed. Added Animations to the AR Scene, Achievements, Tour History, and Search. Ready for QA.
+
+
+snapchat:
+  title: Snapchat AR Lenses
+  summary: A collection of Snapchat lenses that use face detection. Scan snapcode provided and open in Snapchat to use.
+  tech: Lens Studio, Snapchat iOS App
+  updates:
+    <br /><u>4/7&#58;</u> Made several lenses that feature games that assigns user a random image/object.
+
+
+
+
+
+imgtrack:
+  title: UofSC Self-Guided Walking Tour AR
+  summary:
+  obj: To add AR features onto the S.G.W.T. pamphlet given to visitors who come to the UofSC Visitor's center.
+  tech: Unity 3D & AR Foundation, iOS/XCode
+  updates:
+    <br />Image Tracking has been added for the cover, and first 6 tour stop images
+    <br /><b>*Video in progress*</b>
+
+comingsoon:
+  title: More Projects Coming Soon!
