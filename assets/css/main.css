@@ -1553,6 +1553,9 @@ input, select, textarea {
 	.about .col-3 {
 		text-align: center;
 	}
+	.about .col-6 {
+		text-align: center;
+	}
 	.about p {
 		margin-top:0.65em;
 		font-size:78%;
