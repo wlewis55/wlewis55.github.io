@@ -3,6 +3,7 @@
 const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass');
+const fileinclude = require('gulp-file-include');
 
 // Compile Sass & Inject Into Browser
 gulp.task('sass', function() {
@@ -11,6 +12,17 @@ gulp.task('sass', function() {
         .pipe(gulp.dest("src/css"))
         .pipe(browserSync.stream());
 });
+
+//file include
+
+gulp.task('fileinclude', function() {
+    gulp.src(['index.html','about.html', 'projects.html', 'components.html'])
+      .pipe(fileinclude({
+        prefix: '@@',
+        basepath: '@file'
+      }))
+      .pipe(gulp.dest('./'));
+  });
 
 // Move JS Files to src/js
 gulp.task('js', function() {
@@ -43,4 +55,4 @@ gulp.task('fa', function() {
     .pipe(gulp.dest('src/css'))
 })
 
-gulp.task('default', ['js','serve', 'fa', 'fonts']);
+gulp.task('default', ['fileinclude','js','serve', 'fa', 'fonts']);
