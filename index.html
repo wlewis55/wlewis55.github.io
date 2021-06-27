@@ -1,365 +1,56 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
-	<div id="particles-js"></div>
-
-	<script src="assets/js/particles.js"></script>
-	
-	
-	<head>
-		<title>Wade Lewis</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-
-		<script src="https://kit.fontawesome.com/eecc2bfc5b.js" crossorigin="anonymous"></script>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/src/img/favicon.ico" /> 
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+    <!-- META TAGS -->
+    <meta  name="author" content="You&I">
+    <meta  name="description" content="Wade's Personal Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira:300,400,500,600,700" rel="stylesheet">
+        <title>Wade Lewis</title>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Wade Lewis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="components.html">BS Components</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#about" class="icon solid fa-user-graduate"><span>About Me</span></a>
-						<a href="#uofsc" class="icon solid fa-map-marked-alt"><span>UofSCTourAR</span></a>
-						<a href="#tbwc"><i class="fas fa-stroopwafel" style="font-size: 0.8em"></i><span>T.B.W.C.</span></a>					
-						<a href="#quest"><i class="fab fa-unity" style="font-size: 0.8em"></i><span>Oculus Quest</span></a>
-						<a href="#snapchat"><i class="fab fa-snapchat-ghost" style="font-size: 0.8em"></i><span>Snapchat AR</span></a>			
-						<a href="#contact"><i class="fas fa-crosshairs" style="font-size: 0.8em"></i><span>Contact</span></a>		
-						<!--
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
-					</nav>
+      <canvas class="glslCanvas" data-fragment-url="src/shaders/shader.frag" width="500" height="500" style="width: 100vw; height: 80vh;"></canvas>
+      
+      <script src="src/js/bootstrap.min.js"></script>
+      <script src="src/js/GlslCanvas.min.js"></script>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Wade Lewis</h1>
-									<p>Software Developer at the Johns Hopkins Applied Physics Lab</p>
-								</header>
-								<a href="#about" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"></span>
-									<img src="images/wl_color.PNG" alt="" />
-								</a>
-							</article>
-
-						<!-- About Me -->
-						<article id="about" class="panel">
-							
-							<header>
-								<div style="text-align: center;">
-									<!-- <img style="height:auto; width:100px; margin: 0 0 1% 0;" src="media/Wade Lewis.png" alt="WL"> -->
-									<img style="height:auto; max-width: 100%; margin: 0 0 1% 0;" src="images/wl_color-long.PNG" alt="WL">
-									<p></p>
-									<h2>About Me</h2>
-									</br>
-								</div>
-							</header>
-							
-							<section>
-								<div class="about">
-									<div class="row">
-
-										<div class="col-6">
-											<h2><i class="fas fa-school"></i></h2>
-											<h3>Education</h3>
-											<p>
-												I recently graduated with a Bachelors in Computer Science major from the <a href="https://sc.edu" target="_blank">University of South Carolina</a>, and I will soon be starting my Masters in Computer Science at <a href="https://jhu.edu" target="_blank">Johns Hopkins University</a>.
-											</p>
-										</div>
-										<div class="col-6">
-											<h2><i class="fas fa-code"></i></h2>
-											<h3>Code</h3>
-											<p>
-												My main development languages are currently Python and C#, but I have worked with C++, Javascript, HTML, CSS, Bash, cURL, and more...
-											</p>
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-6"><c>
-											<h2><i class="fas fa-toolbox"></i></h2>
-											<h3>Tools</h3>
-											<p>
-												I have used Unity 3D, Xcode, Github, ServiceNow, Visual Studio Code, Lens Studio, Adobe Creative Cloud, Procreate, Microsoft Office, Oracle PBCS and many others!
-											</p>
-										</c>
-										</div>
-										<div class="col-6">
-											<h2><i class="fas fa-globe-americas"></i></h2>
-											<h3>Other</h3>
-											<p>
-												Outside of my classes <i>(in college)</i>, I was a <a href="https://www.uofscambassadors.com/" target="_blank">University Ambassador</a> and I was part of <a href="http://thetatauzd.org/" target="_blank">Theta Tau (&Theta;&Tau;)</a>, a professional engineering fraternity.
-											</p>
-										</div>
-									</div>
-								</div>
-								
-							</section>
-						</article>
-
-						<!-- Senior Design -->
-							<article id="uofsc" class="panel">
-								<header>
-									<h2><div class="tourar">
-										<a href src="https://sccapstone.github.io/UofSCTourAR/" target="_blank">UofSCTourAR</a>
-									</div></h2> 
-								</header>
-								<section>
-	
-									<iframe src="https://sccapstone.github.io/UofSCTourAR/" name="Our Website" style="border: 5px #222222 solid; position: relative; height: 75vh; width: 100%;" scrolling="yes"></iframe>
-								</section>
-							</article>
-
-						<!-- The Belgian Waffle Cart -->
-						<article id="tbwc" class="panel">
-							<header>
-								<h2><div class="tourar">
-									<a href src="https://thebelgianwafflecart.com/" target="_blank">The Belgian Waffle Cart</a>
-								</div></h2> 
-								<p style="text-align: center;">
-									I recently developed a website for The Belgian Waffle Cart company, based in Columbia, SC. The website is not public yet, but it will be soon!
-								</p>
-							</header>
-							<section>
-
-								<iframe src="https://thebelgianwafflecart.com/" name="Our Website" style="border: 5px #222222 solid; position: relative; height: 75vh; width: 100%;" scrolling="yes"></iframe>
-							</section>
-						</article>
-
-						<!-- OQ -->
-						<article id="quest" class="panel">
-							<header>
-								<h2>Mozilla Web VR Sample Scene</h2>
-							</header>
-
-							<div class="descrip">
-								<p><b>Description:</b> Sample WebVR Scene made by Mozilla
-								</p>
-								<p style="text-decoration: underline;"><a style="color:#73000a;"href="WebVR_Sample/index.html">Click Here to enter the WebVR Scene.</a></p>
-							</div>
-
-
-							<header style="margin-top:2em;">
-								<h2>Oculus Quest Hand Tracking</h2>
-							</header>
-
-							<div class="descrip">
-								<p><b>Description:</b> A project that detects gestures made by tracked hands in the Oculus Quest.
-								</p>
-								<p><b>Technology:</b> Oculus Quest, Unity 3D, <a href="https://developer.oculus.com/downloads/package/unity-integration/" target="_blank">Oculus Unity Integration</a>.</p>
-							</div>
-
-							<section>
-								<h3 style="margin: 1em 0 0.5em 0;" >Rock Paper Scissors</h3>
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<img class="oq" src="media/RPS_poc.gif" alt="RPS gif">
-									</div>
-									<div class="col-6 col-12-small">
-									<p><b>Updates:</b>
-
-										<br /><u>1/10&#58;</u> MainMenu, Hand Gun gesture, and grabbing fucntionality in progress.
-    									<br /><u>12/24&#58;</u> The first Demo tracking Rock, Paper, Scissors gestures has been completed.
-										<br /><b>*More images coming soon*</b>
-									</p>
-									</div>
-
-								</div>
-							</section>
-							<!--
-							<section>
-
-
-							</section> -->
-						</article>
-
-						<!-- Snapchat -->
-						<article id="snapchat" class="panel">
-							<header>
-								<h2>Snapchat Lens Studio</h2>
-							</header>
-
-							<div class="descrip">
-								<p><b>Description:</b> A collection of Snapchat lenses that use image detection for Face/Body Tracking and Augmented Reality. 
-									Scan snapcode provided and in Snapchat to use.
-								</p>
-								<p><b>Technology:</b> Lens Studio, Snapchat iOS App</p>
-							</div>
-							
-
-							<section>
-								<div class="snap" style="text-align: center;">
-									<h3>Body Tracking</h3>
-
-									
-							
-									<div class="row">
-
-										<div class="col-3 col-6-small col-12-small" style="text-align: center;">
-											<a href="#pullup" class="image">
-												<img class="snapcode" src="media/Snapcodes/Pull Up Challenge.png" style="vertical-align: middle; margin: 0 auto 0 auto; height:auto; width:140px; padding-top: 95px;" alt="Pull Up Challenge">
-												<p>Pull Up Challenge</p>
-											</a>
-										</div>
-										<div class="col-6 col-6-small col-12-small" style="text-align: center;">
-											<img style="height:auto; width:360px; text-align:center; margin: 0 auto 1% auto;" src="images/Pull-Push.GIF" alt="Lens Preview.Gif">
-										</div>
-										<div class="col-3 col-6-small col-12-small" style="text-align: center;">
-											<a href="#pushup" class="image"><img class="snapcode" src="media/Snapcodes/Push Up Challenge.png" style="height:auto; width:140px;padding-top: 95px;" alt="Push Up Challenge">
-												<p>Push Up Challenge</p>
-											</a>
-										</div>
-										
-									</div>
-									<p></p>
-	
-									<h3>Random Image Generators</h3>
-									<div class="row">
-										<div class="col-4 col-6-small col-12-small">
-											<a href="#sec" class="image"><img class="snapcode" src="media/Snapcodes/SEC School Check.png" alt="SEC School Check">
-												<p>SEC School Check</p>
-											</a>
-										</div>
-										<div class="col-4 col-6-small col-12-small">
-											<a href="#nfl" class="image"><img class="snapcode" src="media/Snapcodes/NFL Team Check.png" alt="NFL Team Check">
-												<p>NFL Team Check</p>
-											</a>
-										</div>
-										<div class="col-4 col-6-small col-12-small">
-											<a href="#building" class="image"><img class="snapcode" src="media/Snapcodes/USC Building Check.png" alt="USC Building Check">
-												<p>USC Building Check</p>
-											</a>
-										</div>
-									</div>
-	
-									<h3>Other Lenses</h3>
-									<div class="row">
-										<div class="col-4 col-6-small col-12-small">
-										</div>
-										<div class="col-4 col-6-small col-12-small">
-											<a href="#spirit" class="image"><img class="snapcode" src="media/Snapcodes/USC Spirit.png" alt="USC Spirit">
-												<p>USC Spirit</p>
-											</a>
-										</div>
-									</div>
-
-									<h3>Stats</h3>
-									<p>These numbers show how many Views, Plays, and Shares that all of my Snap Lenses have generated as of 8/3/20. </p>
-									<div class="row">
-										<div class="col-12 col-6-small col-12-small">
-											<img class="snapcode" src="images/Stats.png" alt="Snapchat Lens Stats" style="height:auto; max-width:95%;">
-										</div>
-									</div>
-
-								</div>
-							</section>
-						</article>
-
-						<!-- Snap Lenses-->
-
-							<article id="pushup_" class="panel">
-
-								<div class="snap">
-									<header>
-										<h2>
-											<a href="#snapchat"><i class="fas fa-chevron-circle-left" style="font-size: 0.9em"></i></a>	
-											&nbsp;Push Up Challenge
-										</h2>
-									</header>
-									<p>
-										This lens tracks you body position to count how many push ups you do. Will be updated soon.
-									</p>
-								</div>
-
-							</article>
-
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<div class="contact">
-									<header>
-										<h2>Contact Me</h2> 
-										<p>More projects coming soon!</p> </br></br>
-	
-										<div class="row">
-											<div class="col-4 col-12-medium">
-												<div style="text-align: center;">
-													<a href="https://github.com/wlewis55" target="_blank"><i class="fab fa-github"></i>
-														<div class="label">
-															<p>Github</p>
-														</div>
-													</a>
-												</div> 
-											</div>
-											<div class="col-4 col-12-medium">
-												<div style="text-align: center;">
-													<a href="https://www.linkedin.com/in/wadelewis55" target="_blank"><i class="fab fa-linkedin"></i>
-														<div class="label">
-															<p>LinkedIn</p>
-														</div>
-													</a>
-												</div> 
-											</div>
-											<div class="col-4 col-12-medium">
-												<div style="text-align: center;">
-													<a href="mailto:wclewis@email.sc.edu" target="_blank"><i class="fas fa-envelope"></i>
-														<div class="label">
-															<p>Email</p>
-														</div>
-													</a>
-													
-												</div> 
-											</div>
-										</div>
-									</header>
-								</div>
-						
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<div id="footer">
-					</br>
-						<nav id="nav">
-
-							<a href="https://github.com/wlewis55" target="_blank"><i class="fab fa-github"></i><span>Github</span></a> &emsp;
-							<a href="https://www.linkedin.com/in/wadelewis55" target="_blank"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a> &emsp;
-							<a href="mailto:wclewis@email.sc.edu" target="_blank"><i class="fas fa-envelope"></i><span>Email</span></a> 
-
-						</nav>
-							
-						<ul class="copyright">
-							<li>Built with <a href="http://html5up.net" target="_blank">HTML5 UP</a> by <u>Wade Lewis</u></li><li>August 2020</li>
-						</ul> 
-							
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
