@@ -909,6 +909,10 @@ section {
 .team .member .member-info {
   padding-left: 30px;
 }
+.team .member .member-info-p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 .team .member h4 {
   font-weight: 700;
@@ -2075,4 +2079,32 @@ section {
 
 #footer .credits a:hover {
   color: white;
+}
+
+@media not all and (min-width: 780px) {
+
+  .mobile-center {
+    text-align: center;
+  }
+  .mobile-center-items {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .mobile-contact-p {
+    padding-left: 3rem;
+  }
+  .mobile-pt {
+    padding-top: 1rem;
+  }
+  .mobile-pt-portfolio {
+    padding-top: 3em;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .contact-custom-p {
+    padding-top: 2rem;
+  }
 }
