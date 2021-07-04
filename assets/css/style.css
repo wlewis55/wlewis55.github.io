@@ -265,12 +265,13 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
+  bottom: 50%;
   left: 15px;
-  padding: 10px 0;
+  padding: 20px 0;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  border-radius: 1.5rem;
 }
 
 .navbar-mobile a {
@@ -285,6 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .getstarted {
   margin: 15px;
+  padding-right: 10px;
 }
 
 .navbar-mobile .dropdown ul {
@@ -2081,7 +2083,11 @@ section {
   color: white;
 }
 
-@media not all and (min-width: 780px) {
+.round-corners {
+  border-radius: 0.5rem;
+}
+
+@media not all and (min-width: 992px) {
 
   .mobile-center {
     text-align: center;
