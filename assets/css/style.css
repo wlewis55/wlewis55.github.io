@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 50%;
+  bottom: 25vh;
   left: 15px;
   padding: 20px 0;
   background-color: #fff;
@@ -783,7 +783,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 0;
   margin: 0;
   font-style: italic;
@@ -849,7 +849,7 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(85, 98, 112, 0.08);
-  height: 91.5%;
+  height: 90%;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -2107,6 +2107,9 @@ section {
   .mobile-pt-portfolio {
     padding-top: 3em;
   }
+  .mobile-arrow {
+    margin-bottom: 28px;
+  }
 
 }
 
@@ -2114,4 +2117,8 @@ section {
   .contact-custom-p {
     padding-top: 1.5rem;
   }
+  .portfolio-details .p-square {
+    padding: 0px 15% 0 15%;
+  }
+  
 }
