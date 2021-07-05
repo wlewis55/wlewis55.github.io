@@ -827,6 +827,21 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.portfolio-details .portfolio-details-slider .fit img {
+  margin: auto;
+  width: auto;
+  max-height: 500px;
+}
+
+@media not all and (min-width: 992px) {
+  .portfolio-details .portfolio-details-slider .fit img {
+    margin: auto;
+    width: 100%;
+  }
+
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -848,8 +863,9 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(85, 98, 112, 0.08);
-  height: 90%;
+  /*box-shadow: 0px 0 30px rgba(85, 98, 112, 0.08);*/
+  box-shadow: 0px 0 30px rgba(85, 98, 112, 0.32);
+  max-height: 500px;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -884,8 +900,13 @@ section {
   padding: 0;
 }
 
+.portfolio-details .details-control {
+  color: #d9232d;
+}
+
+
 /*--------------------------------------------------------------
-# Our Team
+# About
 --------------------------------------------------------------*/
 .team .member {
   position: relative;
@@ -978,6 +999,14 @@ section {
 
 .team .member .social a + a {
   margin-left: 8px;
+}
+
+.aplus img {
+  transition: ease-in-out 0.3s;
+}
+
+.aplus:hover img {
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
@@ -2110,12 +2139,58 @@ section {
   .mobile-arrow {
     margin-bottom: 28px;
   }
+  .aplus {
+    margin-top: 1.5rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
 
+  .portfolio-details .details-control {
+    display: none;
+  }
+
+  .portfolio-details .swipehint {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -15px;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 50px;
+    z-index: 100;
+
+  }
+
+  .portfolio-details .swipehint .inner {
+    border: 5px solid #aae;
+    border-radius: 50%;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    opacity: 0;
+    animation: circles 1.75s ease-out , swipe 1.75s ease-out;
+    animation-iteration-count: 2;
+  }
+
+  @keyframes swipe {
+    0% { transform: translateX(160px); }
+    20% { transform: translateX(160px); } 
+    100% { transform: translateX(0px);  }
+    
+  }
+
+  @keyframes circles {
+    0% { opacity: 0; }
+    33% { opacity: 1; } 
+    100% { opacity: 0; }
+    
+  }
 }
+  
 
 @media screen and (min-width: 800px) {
   .contact-custom-p {
-    padding-top: 1.5rem;
+    padding-top: 3rem;
   }
   .portfolio-details .p-square {
     padding: 0px 15% 0 15%;
