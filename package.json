@@ -4,16 +4,18 @@
   "description": "Wade's Personal Website",
   "main": "index.js",
   "scripts": {
-    "start": "browsersync.bat"
+    "start": "gulp"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.27.3",
+    "browser-sync": "^2.27.4",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0"
   },
   "dependencies": {
+    "ig": "0.0.5",
+    "sass": "^1.35.2",
     "vanilla-lazyload": "^17.4.0"
   }
 }
