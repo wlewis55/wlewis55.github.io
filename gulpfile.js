@@ -20,7 +20,7 @@ function watch() {
         }
     });
     gulp.watch('assets/scss/*.scss', style)
-    gulp.watch(['*.html','portfolio/*.html']).on('change',browserSync.reload);
+    gulp.watch(['*.html','portfolio/*']).on('change',browserSync.reload);
     gulp.watch(['assets/js/*.js', 'assets/vendor/**/*.js']).on('change', browserSync.reload);
 }
 exports.style = style;
